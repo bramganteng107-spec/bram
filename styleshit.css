@@ -1,7 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
 .example{
     width: 500px;
     height: 400px;
     border: 8px solid #C8A848;
+    box-shadow: 10px 10px 5px rgb(218, 145, 145); 
+    max-width: 100%;
+    max-height: 100%;   
 }
 
 a{
@@ -16,6 +23,7 @@ h1{
     font-size: 50px;
     font-family: 'josefin sans', sans-serif;
     color: #1a1a1a;
+    text-shadow: 3px 3px 3px rgb(167, 125, 125);
 }
 
 body{
@@ -25,12 +33,14 @@ body{
 
 h3, p, h2{
     font-family: 'josefin sans', sans-serif;
-    color:#1a1a1a
+    color:#1a1a1a;
+    text-shadow: 4px 4px 7px rgb(134, 96, 96);
 }
 
 h3{
     font-size: 40px;
     color:#1a1a1a;
+    text-shadow: 4px 4px 7px rgb(134, 96, 96);
 }
 
 header, nav{
@@ -42,6 +52,8 @@ header, nav{
 
 header{
     background-color: #001f3f;
+    padding-bottom:40px;
+    display:flow-root;
 }
 
 hr{
@@ -68,7 +80,8 @@ footer{
 }
 
 #deadlast, #deadfirst{
-    color:mediumturquoise
+    color:mediumturquoise;
+    text-shadow:none;
 }
 
 #btp{
@@ -76,5 +89,17 @@ footer{
     font-size: 25px;
     color: #bf5353;
 }
+
+#logo1{
+    float:right;
+    width: 150px;
+    height:150px;
+    margin:50px;
+    margin-top:0px;
+    border: solid 6.5px rgb(228, 185, 44);
+}
+
+
+
 
 

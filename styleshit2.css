@@ -75,6 +75,7 @@ footer{
     padding:30px;
     background-color: rgb(130, 110, 211);
     padding-bottom:50px;
+    display:flow-root;
 }
 
 .nigh{
@@ -144,4 +145,5 @@ input{
     margin-top:20px;
     margin-right:60px;
     margin-left:-200px;
+
 }

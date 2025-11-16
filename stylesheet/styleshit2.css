@@ -6,15 +6,6 @@
     text-align: center;
 }
 
-body{
-    background-image: url(Images2/upscaled.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    height:100vh;
-    width:100vw;
-}
-
 header{
     background-color:rgb(56, 144, 173);
     padding:35px 35px 15px 35px;
@@ -169,3 +160,4 @@ input{
     margin-left:-200px;
     border:8px solid gold;
 }
+

@@ -6,6 +6,13 @@
     text-align: center;
 }
 
+body{
+    background-images: url(Images2/portraitbg.webp);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+}
+
 header{
     background-color:rgb(152, 133, 227);
     padding:35px;
@@ -147,4 +154,5 @@ input{
     margin-left:-200px;
     border:8px solid gold;
 }
+
 

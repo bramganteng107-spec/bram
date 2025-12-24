@@ -1,0 +1,392 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-size:10px;
+}
+
+body{
+    background: linear-gradient(to bottom, black, rgb(181, 181, 0), rgb(174, 174, 0), rgb(210, 136, 0), rgb(49, 197, 49));
+    overflow-x:hidden;
+}
+
+li{
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+}
+
+/* NAV BAR */
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-bar img{
+    width:7rem;
+    height:7rem;
+    border-radius:1rem;
+    margin-left:4rem;
+    margin-top:auto;
+    margin-bottom:auto;
+
+}
+
+.nav-bar ul{
+    display:flex;
+    justify-content:space-evenly;
+    flex:1;
+}
+
+.nav-bar a{
+    font-size:5rem;
+    font-family: 'Atkinson Hyperlegible Next', cursive;
+    color:white;
+    opacity:0.7;
+    transition: all 0.15s ease-in-out;
+    text-decoration:underline;
+}
+
+.nav-bar a:hover, a:active, a:focus{
+    opacity:1;
+    text-shadow: 0 0 2rem white;
+}
+
+.nav-bar {
+    display: flex;
+    align-items:center;
+    background: linear-gradient(to right, rgb(146, 146, 1), rgb(125, 125, 15));
+    width:100%;
+    padding-top:1.5rem;
+    padding-bottom:1.5rem;
+    flex-grow:1;
+}
+
+/* End of NAV BAR */
+
+/* HERO SECTION */
+
+.hero-header img{
+    background-image: url(images/seafoodbg1.jpg);
+    background-size:contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    height:100vh;
+    width:100%;
+    overflow:hidden;
+    position:relative;
+    opacity:0.7;
+}
+
+.hero-content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-content h1{
+    font-size:7rem;
+    white-space: nowrap;
+    font-family: 'Atkinson Hyperlegible Next', cursive;
+    color:white;
+}
+
+.hero-content p{
+    font-size:5rem;
+    margin-top:2rem;
+    text-align: center;
+    font-family: 'Farsan', cursive;
+    color:antiquewhite;
+}
+#noah:hover::after {
+    content: "Ini Noah nama anaknya si owner";
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    z-index: 10;
+    font-size: 1.5rem;
+    font-family: serif;
+}
+
+#noah{
+    font-size:5rem;
+}
+
+/* End of HERO SECTION */
+
+/* MAIN SECTION */
+
+
+.main-description{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    margin-top:10rem;
+    padding: 0 3rem;
+}
+.main-description h2{
+    font-family: 'Atkinson Hyperlegible Next', cursive;
+    font-size: 8rem;
+    text-align: center;
+}
+
+.main-description p{
+    margin-top:3rem;
+    font-family: 'Farsan', cursive;
+    font-size: 3.5rem;
+}
+
+.description-experience{
+    margin-top:7rem;
+}
+
+
+/* dish section */
+
+.dish-gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:4rem;
+    margin-top:10rem;
+    margin-bottom:10rem;
+}
+
+.main-dish h2{
+    font-family: 'Atkinson Hyperlegible Next', cursive;
+    font-size: 8rem;
+    text-align: center;
+    margin-top:15rem;
+    margin-bottom:4rem;
+}
+
+.dish-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    gap: 5rem;
+}
+
+.dish {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    max-width: 35rem;
+    border: 1rem solid white;
+    border-radius: 5rem;
+}
+
+.dish img{
+    width: 30rem;
+    height: 30rem;
+    border: 0.5rem solid white;
+    border-radius: 2rem;
+    margin-top: -5rem;
+}
+
+.dish h3{
+    font-family: 'Atkinson Hyperlegible Next', cursive;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.dish h3:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.dish p{
+    font-family: 'Farsan', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    padding: 4rem;
+}
+
+.viewmore p{
+    text-align: center;
+    margin-bottom:10rem;
+
+}
+
+.viewmore a{
+    font-family: 'Atkinson Hyperlegible Next', cursive;
+    font-size: 6rem;
+    margin-bottom: 10rem;
+    opacity:0.7;
+    text-decoration:underline;
+    color:white;
+}
+
+.viewmore a:hover, .viewmore a:active, .viewmore a:focus{
+    opacity:1;
+    text-shadow: 0 0 2rem white;
+    transition: all 0.15s ease-in-out;
+}
+
+/* End of gallery */
+
+/* start of reason SECTION */
+
+.deduction-reason h2{
+    font-family: 'Atkinson Hyperlegible Next', cursive;
+    font-size: 10rem;
+    text-align: center;
+    margin-top:16rem;
+    margin-bottom:10rem;
+}
+
+.deduction-items h3{
+    font-family: 'Atkinson Hyperlegible Next', cursive;
+    font-size: 4rem;
+    text-align: center;
+    margin-top:4rem;
+    margin-bottom:2rem;
+}
+
+.deduction-items p{
+    font-family: 'Farsan', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom:8rem;
+    padding: 0 2rem;
+    margin-left:10rem;
+    margin-right:10rem;
+}
+
+.deduction-invitation{
+    margin-top:12rem;
+    margin-bottom:12rem;
+    text-align: center;
+}
+
+.deduction-invitation h2{
+    font-family: 'Atkinson Hyperlegible Next', cursive;
+    font-size: 6rem;
+    margin-bottom:4rem;
+}
+
+.deduction-invitation p{
+    font-family: 'Farsan', cursive;
+    font-size: 5rem;
+    margin-bottom:4rem;
+    margin-left:10rem;
+    margin-right:10rem;
+}
+
+.deduction-invitation a{
+    font-family: 'Atkinson Hyperlegible Next', cursive;
+    font-size: 8rem;
+    color:white;
+    opacity:0.6;
+    transition: all 0.15s ease-in-out;
+    text-decoration:none;
+}
+
+.deduction-invitation a:hover, .deduction-invitation a:active, .deduction-invitation a:focus{
+    opacity:1;
+    text-shadow: 0 0 2rem white;
+}
+
+#reservasi {
+    text-align: center;
+    margin: 7rem auto;
+    border: 0.5rem solid white;
+    border-radius: 3rem;
+    width: fit-content;
+    padding: 2rem;
+}
+
+/* End of reason SECTION */
+
+/* FOOTER SECTION */
+
+.footer-contact img{
+    width:5rem;
+    height:5rem;
+    opacity:0.7;
+}
+
+.footer-contact ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:6rem;
+    padding:4rem;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-info a{
+    font-family: 'Atkinson Hyperlegible Next', cursive;
+    font-size: 2rem;
+    margin-bottom:2rem;
+    color:white;
+    opacity:0.7;
+}
+
+.contact-info a:hover, .contact-info a:active, .contact-info a:focus{
+    opacity:1;
+    text-shadow: 0 0 2rem white;
+    transition: all 0.15s ease-in-out;
+}
+
+.contact-info img:hover, .contact-info img:active, .contact-info img:focus{
+    opacity:1;
+    transition: all 0.15s ease-in-out;
+    text-shadow: 0 0 2rem black;
+    transform: scale(1.1);
+}
+
+.footer-copyright{
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom:4rem;
+}
+
+.footer-copyright h2, a{
+    font-family: 'Atkinson Hyperlegible Next', cursive;
+    font-size: 5rem;
+    color:white;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    text-decoration:underline;
+    opacity:0.7;
+}
+
+.footer-copyright  a:hover, .footer-copyright a:active, .footer-copyright, a:focus{
+    text-shadow: 0 0 2rem white;
+    transition: all 0.15s ease-in-out;
+    opacity:1;
+    transform: scale(1.1);
+}
+.footer-copyright p{
+    margin-top:2rem;
+    font-family: 'Farsan', cursive;
+    margin-bottom:0;
+    font-size: 2.5rem;
+    color:white;
+}
+
+footer{
+    background: linear-gradient(to bottom,rgb(210, 210, 21), rgb(196, 196, 32), rgb(215, 153, 38), rgb(181, 122, 13));
+}

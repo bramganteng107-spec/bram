@@ -8,10 +8,11 @@
 @media (max-width: 768px){
     html{
         font-size:16px;
+        overflow-x: hidden;
     }
     .hero-content h1{
         white-space:normal;
-        overflow-wrap:break-word;
+        text-align: center;
     }
 }
 
@@ -401,6 +402,7 @@ footer{
     background: linear-gradient(to bottom,rgb(210, 210, 21), rgb(196, 196, 32), rgb(215, 153, 38), rgb(181, 122, 13));
 
 }
+
 
 
 

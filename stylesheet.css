@@ -7,9 +7,9 @@
 
 @media (max-width: 768px){
     html{
-        font-size:10px;
+        font-size:16px;
     }
-    h1{
+    .hero-content h1{
         white-space:normal;
         overflow-wrap:break-word;
     }
@@ -401,6 +401,7 @@ footer{
     background: linear-gradient(to bottom,rgb(210, 210, 21), rgb(196, 196, 32), rgb(215, 153, 38), rgb(181, 122, 13));
 
 }
+
 
 
 

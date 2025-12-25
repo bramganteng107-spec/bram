@@ -6,6 +6,9 @@
 }
 
 @media (max-width: 800px){
+    body{
+        overflow:hidden;
+    }
     html{
         font-size:10px;
     }
@@ -405,6 +408,7 @@ footer{
     background: linear-gradient(to bottom,rgb(210, 210, 21), rgb(196, 196, 32), rgb(215, 153, 38), rgb(181, 122, 13));
 
 }
+
 
 
 

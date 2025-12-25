@@ -91,7 +91,7 @@ nav {
 
 .hero-content h1{
     font-size:7rem;
-    overflow-wrap:break-word;
+    max-width:90vw;
     font-family: 'Atkinson Hyperlegible Next', cursive;
     color:white;
 }
@@ -391,5 +391,6 @@ footer{
     background: linear-gradient(to bottom,rgb(210, 210, 21), rgb(196, 196, 32), rgb(215, 153, 38), rgb(181, 122, 13));
 
 }
+
 
 

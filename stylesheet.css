@@ -9,8 +9,10 @@
     html{
         font-size:16px;
     }
-    .hero-content h1{  /* More specific selector */
-        white-space:normal;
+    h1{  /* More specific selector */
+        color:red;
+        max-width:95vw;
+        white-space:normal !important;
         overflow-wrap:break-word;
         word-break:break-word;
     }
@@ -403,6 +405,7 @@ footer{
     background: linear-gradient(to bottom,rgb(210, 210, 21), rgb(196, 196, 32), rgb(215, 153, 38), rgb(181, 122, 13));
 
 }
+
 
 
 
